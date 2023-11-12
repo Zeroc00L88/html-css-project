@@ -458,13 +458,13 @@ from, to { transform: scale(1, 1); }
         display: flex;
         gap: 50px;
         width: 100%;
-        height: 400px;
         > div:first-child {
             width: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
             text-align: center;
+            gap: 20px;
             justify-content: space-around;
             h4 {
                 padding-bottom: 10px;
@@ -474,6 +474,7 @@ from, to { transform: scale(1, 1); }
         > div:last-child {
             width: 100%;
             iframe {
+                min-height: 400px;
                 border: none;
                 width: 100%;
                 height: 100%;

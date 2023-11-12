@@ -27,6 +27,9 @@
     #jsSection div:last-child {
         flex-direction: column;
     }
+    #contactSection article > div {
+        flex-direction: column;
+    }
 }
 @media (max-width: 960px){
     #htmlFirstDot::after {
