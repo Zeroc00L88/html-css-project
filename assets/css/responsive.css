@@ -1,0 +1,50 @@
+@media (max-width: 768px){
+    header ul {
+        display: none;
+    }
+    #menu {
+        display: unset;
+        padding-right: 30px;
+    }
+    .homeSection {
+        height: unset;
+    }
+    #html>div {
+        flex-direction: column-reverse;
+    }
+    #css>div {
+        flex-direction: column;
+    }
+    #jsphp>div {
+        flex-direction: column-reverse;
+    }
+    .imgRight img {
+        width: 50%;
+    }
+    .imgLeft img {
+        width: 50%;
+    }
+    #jsSection div:last-child {
+        flex-direction: column;
+    }
+}
+@media (max-width: 960px){
+    #htmlFirstDot::after {
+        left: -350px;
+    }
+    #htmlSecondDot::after {
+        right: -425px;
+    }
+    #htmlThirdDot::after {
+        left: -410px;
+    }
+    #cssFirstDot::after {
+        left: -250px;
+    }
+    #cssSecondDot::after {
+        right: -225px;
+    }
+    #cssThirdDot::after {
+        left: -240px;
+    }
+}
