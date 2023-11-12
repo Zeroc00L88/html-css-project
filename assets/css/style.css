@@ -514,5 +514,9 @@ from, to { transform: scale(1, 1); }
         div::placeholder {
             text-align: center;
         }
+        #buttons {
+            flex-direction: row;
+            gap: 5px;
+        }
     }
 }
