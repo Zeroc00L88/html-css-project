@@ -430,6 +430,11 @@ from, to { transform: scale(1, 1); }
         border-radius: 10px;
         background: rgba(0, 0, 0, 0.3);
         flex: 1;
+        h4 {
+            text-decoration: underline;
+            font-size: 18px;
+            font-weight: bold;
+        }
         li {
             margin-left: 18px;
             span {
