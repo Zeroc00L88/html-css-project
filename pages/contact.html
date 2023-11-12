@@ -29,7 +29,7 @@
         <main>
             <section id="contactSection" class="pageSection">
                 <h2>Contact</h2>
-                <article>
+                <article id="contactInfo">
                     <h3>Nos coordonnées</h3>
                     <div>
                         <div>
@@ -42,11 +42,40 @@
                                 <h4>Email : </h4>
                                 <p>jojolembrouil@roadtosuccess.com</p>
                             </div>
+                            <div>
+                                <h4>Phone : </h4>
+                                <p>555-555-555</p>
+                            </div>
                         </div>
                         <div>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202845.20095486482!2d-122.2059052723101!3d37.40268917884661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb68ad0cfc739%3A0x7eb356b66bd4b50e!2sSilicon%20Valley%2C%20Californie%2C%20%C3%89tats-Unis!5e0!3m2!1sfr!2sfr!4v1699745204809!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
+                </article>
+                <article id="contactComment">
+                    <h3>Votre avis compte !</h3>
+                    <p>Posez nous une question ou donnez nous votre avis</p>
+                    <form>
+                        <div>
+                            <label for="name">Nom</label>
+                            <input type="text" name="name" id=name placeholder="Entrez votre Nom">
+                        </div>
+                        <div>
+                            <label for="firstName">Prénom</label>
+                            <input type="text" name="firstName" placeholder="Entrez votre Prénom">
+                        </div>
+                        <div>
+                            <label for="mail">Email</label>
+                            <input type="email" name="mail" placeholder="exemple@email.com">
+                        </div>
+                        <div>
+                            <label for="message">Message</label>
+                            <textarea rows="6" cols="50" placeholder="Votre message ici"></textarea>
+                        </div>
+                        <div>
+                            <button onclick="return alert('message envoyé nous vous répondrons dans les 3 jours')" type="submit">Envoyer</button>
+                        </div>
+                    </form>
                 </article>
             </section>
         </main>
