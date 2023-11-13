@@ -180,7 +180,7 @@ span a {
 
 /* --HTML-- */
 #html:hover .logoScale {
-    transform: scale(0%);
+    transform: scale(0);
 }
 #html:hover .imgLeft{
     left: 0%;
@@ -192,7 +192,7 @@ span a {
 
 /* --CSS-- */
 #css:hover .logoScale {
-    transform: scale(0%);
+    transform: scale(0);
 }
 #css:hover .imgRight{
     right: 0%;
@@ -205,7 +205,7 @@ span a {
 
 /* --JS-- */
 #jsphp:hover .logoScale {
-    transform: scale(0%);
+    transform: scale(0);
 }
 #jsphp:hover .imgLeft{
     left: 0%;
@@ -306,7 +306,6 @@ from, to { transform: scale(1, 1); }
 75% { transform: scale(0.95, 1.05); }
 }
 .dotContainer>div:hover {
-    /* transform: scale(1.2); */
     animation: none;
     .circle {
         animation: none;
